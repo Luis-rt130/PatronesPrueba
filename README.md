@@ -74,8 +74,15 @@ Desde la carpeta `src`:
 javac Main.java catalogo/*.java producto/*.java adapter/*.java
 ```
 ### 5. Justificación técnica por patrón
-Patrón	¿Por qué se aplica?	¿Dónde se aplica?	¿Cómo mejora el diseño?
-Singleton	Para asegurar una única instancia global de la tienda que gestione el catálogo.	Clase Tienda (package catalogo)	Control centralizado, acceso global controlado.
-Prototype	Para permitir clonar productos (útil para promociones o duplicados sin afectar el original).	Interfaz Producto y métodos clonar() en clases concretas.	Facilita reutilización de objetos sin acoplamiento.
-Bridge	Para desacoplar la lógica de los productos de su forma de visualización.	Clases VistaProducto, VistaFisica, VistaDigital.	Permite modificar la presentación sin cambiar el producto.
-Adapter	Para integrar productos externos sin modificar su estructura original.	Clase ProductoAdapter que adapta ProductoExterno.	Fomenta compatibilidad con APIs de terceros o sistemas heredados.
+
+| Patrón        | ¿Por qué se aplica?                                                                          | ¿Dónde se aplica?                                             | ¿Cómo mejora el diseño?                                           |
+| ------------- | -------------------------------------------------------------------------------------------- | ------------------------------------------------------------- | ----------------------------------------------------------------- |
+| **Singleton** | Para asegurar una única instancia global de la tienda que gestione el catálogo.              | Clase `Tienda` (package `catalogo`)                           | Control centralizado, acceso global controlado.                   |
+| **Prototype** | Para permitir clonar productos (útil para promociones o duplicados sin afectar el original). | Interfaz `Producto` y métodos `clonar()` en clases concretas. | Facilita reutilización de objetos sin acoplamiento.               |
+| **Bridge**    | Para desacoplar la lógica de los productos de su forma de visualización.                     | Clases `VistaProducto`, `VistaFisica`, `VistaDigital`.        | Permite modificar la presentación sin cambiar el producto.        |
+| **Adapter**   | Para integrar productos externos sin modificar su estructura original.                       | Clase `ProductoAdapter` que adapta `ProductoExterno`.         | Fomenta compatibilidad con APIs de terceros o sistemas heredados. |
+
+### 6. instalacion
+
+Para ejecutar el projecto tiene que hacer lo siguiente
+usar el git clone 
