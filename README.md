@@ -58,13 +58,13 @@ Una tienda requiere un sistema flexible para gestionar múltiples tipos de produ
 ### 2. Estructura del proyecto
 
 /TiendaProductos
-├── /img
-├── /src
-│ ├── Main.java
-│ ├── catalogo/
-│ ├── producto/
-│ └── adapter/
-└── README.md
+--├── /img
+--├── /src
+--│ ├── Main.java
+--│ ├── catalogo/
+--│ ├── producto/
+--│ └── adapter/
+--└── README.md
 
 ### 3. Compilación
 
