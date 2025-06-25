@@ -85,4 +85,10 @@ javac Main.java catalogo/*.java producto/*.java adapter/*.java
 ### 6. instalacion
 
 Para ejecutar el projecto tiene que hacer lo siguiente
-usar el git clone 
+usar el:
+git clone https://github.com/Luis-rt130/PatronesPrueba.git 
+en el terminal
+luego tiene que ubicarse en la main con:
+cd PruebaPatrones\src\Main
+y por ultimo ejecutarlo 
+java -cp . Main.java
