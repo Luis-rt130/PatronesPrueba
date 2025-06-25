@@ -82,7 +82,7 @@ javac Main.java catalogo/*.java producto/*.java adapter/*.java
 | **Bridge**    | Para desacoplar la lógica de los productos de su forma de visualización.                     | Clases `VistaProducto`, `VistaFisica`, `VistaDigital`.        | Permite modificar la presentación sin cambiar el producto.        |
 | **Adapter**   | Para integrar productos externos sin modificar su estructura original.                       | Clase `ProductoAdapter` que adapta `ProductoExterno`.         | Fomenta compatibilidad con APIs de terceros o sistemas heredados. |
 
-### 6. instalacion
+### 6. instalacion y ejecucion
 
 - Para ejecutar el projecto tiene que hacer lo siguiente
 - usar el:
